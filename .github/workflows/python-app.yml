@@ -28,7 +28,7 @@ jobs:
 
     - name: Static code analysis
       run: |
-        pylint .
+        pylint *.py
 
     - name: Run test 
       run: |
