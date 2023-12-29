@@ -28,9 +28,8 @@ jobs:
 
     - name: Static code analysis
       run: |
-        pylint your_module_or_directory
+        pylint .
 
-    - name: Run tests with coverage
+    - name: Run test 
       run: |
-        coverage run -m pytest
-        coverage report
+        python test.py
