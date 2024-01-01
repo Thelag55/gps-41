@@ -8,7 +8,7 @@ def to_upper_case(string):
 
 def to_lower_case(string):
     """ string to lower case"""
-    return string.upper()
+    return string.lower()
 
 
 def to_capitalize(string):
